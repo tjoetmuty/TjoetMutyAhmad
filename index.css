@@ -1,0 +1,111 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: #0f0252;
+    display: grid;
+    justify-content: center;
+}
+
+.main{
+    width: 700px;
+    background-color: white;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 12px;
+}
+
+.header{
+    margin-left: 30px;
+}
+
+.kotak{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kotak1{
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.email, .password{
+    padding-top: 20px;
+}
+
+.kotak2{
+    width: 200px;
+    height: 200px;
+    margin-right: 140px;
+    padding-top: 20px;
+}
+
+.alamat{
+    /* background-color: blue; */
+    margin-left: 30px;
+    padding-top: 70px;
+}
+
+.gender, .gambar, .button{
+    padding-top: 20px;
+}
+
+.address{
+    width: 630px;
+    height: 39px;
+    border: solid 2px;
+    border-color: gray;
+    border-radius: 4px;
+}
+
+.gender, .gambar{
+    /* background-color: cornflowerblue; */
+    margin-left: 30px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 640px;
+    height: 39px;
+    border-radius: 12px;
+    border-color: white;
+    background: linear-gradient(135deg, #2b7db3, #0f0252);
+    color: white;
+    /* transition-duration: 0.4s; */
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: white;
+    color: #0f0252;
+    transition-duration: 0.4s;
+    border-color: #0f0252;
+}
+
+.input{
+    border: solid 2px;
+    border-color: gray;
+    border-radius: 4px;
+    height: 39px;
+    width: 300px;
+}
+
+
+.input2{
+    border: solid 2px;
+    border-color: gray;
+    border-radius: 4px;
+    height: 39px;
+    width: 303px;
+}
+
+.footer{
+    color: white;
+}

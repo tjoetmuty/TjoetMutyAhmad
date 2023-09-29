@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form class="main">
+        <div class="header">
+            <h2 class="header2"><b>Registration Form</b></h2>
+            <p class="paragraf">Please fill out this form with the required information</p>
+        </div>
+        <hr>
+        <div class="kotak">
+            <div class="kotak1">
+                <div class="nama">
+                    <label for="firstname"><b>First Name</b></label>
+                    <br>
+                    <input type="text" id="firstname" placeholder="Enter your first name" class="input" required>
+                </div>
+                <div class="email">
+                    <label for="email"><b>Email</b></label>
+                    <br>
+                    <input type="email" id="email" placeholder="Enter your email" class="input" required>
+                </div>
+                <div class="password">
+                    <label for="password"><b>Password</b></label>
+                    <br>
+                    <input type="password" id="lastname" placeholder="Enter your password" class="input" required>
+                </div>
+            </div>
+            <div class="kotak2">
+                <div>
+                    <label for="lastname"><b>Last Name</b></label>
+                    <br>
+                    <input type="text" id="lastname" placeholder="Enter your last name" class="input" required>
+                </div>
+                <div class="email">
+                    <label for="birthdate"><b>Birth Date</b></label>
+                    <br>
+                    <input type="date" id="lastname" class="input2" required>
+                </div>
+                <div class="password">
+                    <label for="confirmpass"><b>Confirm Password</b></label>
+                    <br>
+                    <input type="password" id="confirmpass" placeholder="Confirm your password" class="input" required>
+                </div>
+            </div>
+        </div>
+        <div class="alamat">
+            <label for="address"><b>Address</b></label>
+            <br>
+            <input type="text" id="address" placeholder="Enter your address" class="address" required>
+        </div>
+        <div class="gender">
+            <label for="gender"><b>Gender</b></label>
+            <br>
+            <div class="input-gender">
+                <input type="radio" id="gender" value="Male">Male
+                <input type="radio" id="gender" value="Female">Female
+                <input type="radio" id="gender" value="not">Prefer not to say
+            </div>
+        </div>
+        <div class="gambar">
+            <label for="image"><b>Upload Image</b></label>
+            <br>
+            <input type="file" required>
+        </div>
+        <div class="button">
+            <button class="btn">Register</button>
+        </div>
+    </form>
+    <div>
+        <p class="footer">&copy2023, by Tjoet Muty Ahmad</p>
+    </div>
+</body>
+</html>
